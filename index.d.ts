@@ -1,1 +1,1 @@
-export declare function(hotelId: string): null;
+export declare function fn(hotelId: string): void;

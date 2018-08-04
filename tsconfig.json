@@ -1,7 +1,5 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
-    "rootDirs": ["src", "scripts"],
     "target": "ES6",
     "moduleResolution": "node",
     "module": "esnext",
@@ -11,7 +9,7 @@
     "allowSyntheticDefaultImports": true,
     "checkJs": true,
     "forceConsistentCasingInFileNames": true,
-    "noImplicitAny": true,
+    "noImplicitAny": false,
     "noImplicitReturns": true,
     "noImplicitThis": true,
     "noUnusedLocals": true,
@@ -21,7 +19,7 @@
     "suppressImplicitAnyIndexErrors": true
   },
   "include": [
-    "./*.js"
+    "./*"
   ],
   "exclude": [
     "node_modules"

@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "rootDirs": ["src", "scripts"],
+    "target": "ES6",
+    "moduleResolution": "node",
+    "module": "esnext",
+    "noEmit": true,
+    
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "checkJs": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": false,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true
+  },
+  "include": [
+    "./*.js"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
